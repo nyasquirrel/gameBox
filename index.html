@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+
+        <div class="app__header">
+            <h1 class="app__title">Время игры: <span class="app__timer">5.0</span></h1>
+            <h1 class="app__score-title hide">Ваш результат: <span class="app__result"></span></h1>
+        </div>
+
+        <div class="app__content">
+        <button class="start-game">Начать</button>
+
+        <div class="game"></div>
+        </div>
+
+        <div class="user-time">
+            <label class="user-time__title" for="user-time">Время игры, (сек)</label>
+            <input  id="user-time" type="number" value="5" step="1" min="5">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
